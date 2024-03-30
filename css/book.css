@@ -1,0 +1,189 @@
+.container_about_1{
+    background-image: url('../assets/img/back_about.png');
+padding: 10px;
+display: flex;
+margin: 0 auto;
+justify-content: space-around;
+
+}
+
+.book_1{
+ 
+    display: flex;
+    margin: 0 auto;
+   border-right: dashed 1px white;
+}
+
+.book_2{
+    display: flex;
+    margin: 0 auto;
+}
+
+.text_book{
+    width: 250px;
+}
+
+.img_book{
+    width: 180px;
+}
+
+.container_takethehead{
+    background-image: url('../assets/img/fondo_index.png');
+
+}
+
+.text_img_red{
+    color: rgb(196, 132, 132);
+}
+
+.take_thehead{
+    width: 1024px;
+    padding: 10px;
+}
+
+.img_pay{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.the_book_takehead{
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.text_talesfood{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.take_bookandpay{
+    border-bottom: solid 1px rgb(0, 0, 0);
+width: 900px;
+margin: 0 auto;
+display: flex;
+}
+
+.quotes{
+    width: 680px;
+    text-align: center;
+}
+
+.items_quotes{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.list_comillas{
+    list-style: none;
+}
+
+.quotes_books{
+    display: flex;
+    margin: 0 auto;
+}
+
+.list_comillas_text{
+    list-style: none;
+    text-align: start;
+}
+
+.list_comillas_items{
+    padding-bottom: 85px;
+    padding-top: 15px;
+}
+
+.list_comillas_items_readers{
+    padding-bottom: 85px;
+    padding-top: 15px;
+}
+
+.list_comillas_text_readers{
+    list-style: none;
+    text-align: start;
+    padding-bottom: 55px;
+}
+
+
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+ 
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.requerido{
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.buton_form {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buton_form:hover {
+    background-color: #bfc9c977;
+}
+
+
+
+.tabla {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo transparente */
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .tabla table {
+    width: 100%;
+   
+  }
+  
+  .tabla th, .tabla td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .tabla td {
+    background-color: #fff;
+    color: #666;
+  }
+  
+  .tabla tr:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Cambio de color al pasar el ratón */
+  }
+  
